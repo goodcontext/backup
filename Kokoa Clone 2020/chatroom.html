@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Chat - Kokoa Clone</title>
+</head>
+<body class="body__chatroom">
+    <div class="status-bar status-bar--chatroom">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="chatroom-header">
+        <a href="chats.html"><span><i class="fa-solid fa-chevron-left fa-2x"></i></span></a>
+        <span class="chatroom-header__name">SangHo, Shin</span>
+        <div class="chatroom-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+            <span><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+    <main class="chatroom-main__wrapper">
+        <div class="chatroom-main__timestamp">
+            <span>Tuesday, June 30, 2020</span>
+        </div>
+        <div class="chatroom-main__friends">
+            <div class="chatroom-main__friends__column-left">
+                <img src="images/bart.png" alt="bart">
+            </div>
+            <div class="chatroom-main__friends__column-right">
+                <span>SangHo, Shin</span>
+                <div class="chatroom-main__friends__column-right__chat">
+                    <span>Hi!</span>
+                    <span>21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="chatroom-main__own">
+            <div class="chatroom-main__friends__chat">
+                <span>21:27</span>
+                <span>What's up?</span>
+            </div>
+        </div>
+    </main>
+
+    <div id="responsive_web_info">
+        <span>Your screen is too big. ㅠㅠ</span>
+    </div>
+
+    <footer class="chatroom-footer__wrapper">
+        <form class="chatroom-footer__form">
+            <span><i class="far fa-square-plus fa-2x"></i></span>
+            <input type="text" placeholder="Write a message...">
+            <span class="chatroom-footer__span--absolute"><i class="far fa-face-smile fa-2x"></i></span>
+            <span class="chatroom-footer__span--absolute"><i class="fa-solid fa-arrow-up fa-2x"></i></span>
+        </form>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/bce3b4581e.js" crossorigin="anonymous"></script>
+</body>
+</html>

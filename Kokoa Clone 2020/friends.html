@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Friends - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__text">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <a href="settings.html"><span><i class="fa-solid fa-gear fa-lg"></i></span></a>
+        </div>
+    </header>
+
+    <a class="friends-display-link">
+        <span><i class="fa-solid fa-circle-info fa-lg"></i></span>
+        <span>Friends' Names Display</span>
+        <span><i class="fa-solid fa-angle-right fa-lg"></i></span>
+    </a>
+
+    <div class="user-component">
+        <div class="user-component__column">
+            <div class="user-component__profile user-component__profile--large">
+            <img src="images/profile.jpg" alt="profile"></div>
+            <div class="user-component__title-wrap">
+                <span class="user-component__title">신상호</span>
+            </div>
+        </div>
+        <div class="user-component__column"></div>
+    </div>
+
+    <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+            <span>Channel</span>
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <div class="user-component__channel">
+            <div class="user-component__channel__column">
+                <div class="user-component__profile user-component__profile--small"><img src="images/카카오톡_Channel.jpg" alt="kakaoTalk_Channel"></div>
+                <div class="user-component__title-wrap">
+                    <span class="user-component__title user-component__title--not-bold">Channel</span>
+                </div>
+            </div>
+            <div class="user-component__channel__column">
+                <span>2</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="splash">
+        <span><i class="fa-solid fa-comment fa-8x"></i></span>
+    </div>
+
+    <div id="responsive_web_info">
+        <span>Your screen is too big. ㅠㅠ</span>
+    </div>
+
+    <nav class="bottom_menu_nav">
+        <ul class="bottom_menu_ul">
+            <li class="bottom_menu_li"><a href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="bottom_menu_li"><a href="chats.html"><i class="far fa-comment fa-2x"></i><span>1</span></a></li>
+            <li class="bottom_menu_li"><a href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="bottom_menu_li"><a href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i><span></span></a></li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/bce3b4581e.js" crossorigin="anonymous"></script>
+</body>
+</html>
